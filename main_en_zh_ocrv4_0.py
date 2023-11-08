@@ -17,7 +17,7 @@ def ppocr_recognize(img_path):
             print(line)
     return result
 
-img_path = './translate_pdf/data2.pdf'
+img_path = './data2.pdf'
 result = ppocr_recognize(img_path)
 
 def extract_formula_from_pdf(pdf_path):
